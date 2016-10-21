@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NMReader</string>
+
+    <string-array name="menu1">
+        <item>Browse Online Manga</item>
+        <item>My library</item>
+        <item>Favorites</item>
+        <item>History</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="menuOrigens">
+        <item>MangaHere</item>
+        <item>Batoto</item>
+    </string-array>
+
+    <string-array name="menuBrowseBy">
+        <item>All Manga</item>
+        <item>Latest Updates</item>
+    </string-array>
+
+    <string-array name="llistaMangas">
+        <item>Manga 1</item>
+        <item>Manga 2</item>
+    </string-array>
+</resources>
