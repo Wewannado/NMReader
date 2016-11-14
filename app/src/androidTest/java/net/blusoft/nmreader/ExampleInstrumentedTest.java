@@ -1,3 +1,7 @@
+/*
+ * Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+ */
+
 package net.blusoft.nmreader;
 
 import android.content.Context;

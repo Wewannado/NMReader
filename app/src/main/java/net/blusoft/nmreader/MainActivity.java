@@ -1,8 +1,13 @@
+/*
+ * Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+ */
+
 package net.blusoft.nmreader;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -11,12 +16,19 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ListView menu = (ListView) findViewById(R.id.listView);
         ArrayAdapter<String> adaptador = new ArrayAdapter(this,  R.layout.listview_style);
-
         String llista[] = getResources().getStringArray(R.array.menu1);
         adaptador.addAll(llista);
         menu.setAdapter(adaptador);
@@ -30,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = null;
         switch (position) {
             case 0:
-                intent = new Intent(MainActivity.this, BrowseManga.class);
+                intent = new Intent(MainActivity.this, BrowseMangaActivity.class);
                 break;
             case 1:
                 //My library

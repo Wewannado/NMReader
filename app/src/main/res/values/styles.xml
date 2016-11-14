@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+  -->
+
 <resources>
 
     <!-- Base application theme. -->
@@ -8,7 +12,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
+   <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>

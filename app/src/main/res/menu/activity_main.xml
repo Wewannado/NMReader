@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"/>
+    
+	<item
+        android:id="@+id/menu_feedback"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Send Feedback"/>
+
+</menu>

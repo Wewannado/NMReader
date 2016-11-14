@@ -1,3 +1,7 @@
+/*
+ * Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+ */
+
 apply plugin: 'com.android.application'
 
 android {
@@ -10,6 +14,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.custom_app_logo.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -26,5 +31,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:support-vector-drawable:24.2.1'
     testCompile 'junit:junit:4.12'
 }

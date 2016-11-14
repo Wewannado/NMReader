@@ -1,3 +1,7 @@
+/*
+ * Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+ */
+
 package net.blusoft.nmreader.Brownse_by;
 
 import android.os.Bundle;
@@ -10,7 +14,7 @@ import android.widget.Toast;
 
 import net.blusoft.nmreader.R;
 
-public class ShowLists extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class ShowListsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

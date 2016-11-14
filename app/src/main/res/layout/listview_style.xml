@@ -1,3 +1,7 @@
+<!--
+  ~ Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+  -->
+
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/text1"
     android:paddingTop="13dip"

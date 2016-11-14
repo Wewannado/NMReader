@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2016 Roger G. Coscojuela aka Diddi / Wewannado
+  -->
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.blusoft.nmreader">
 
@@ -11,12 +15,13 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BrowseManga" />
-        <activity android:name=".Brownse_by.ShowLists" />
-        <activity android:name=".Brownse_by.BrowseBy"></activity>
+        <activity android:name=".BrowseMangaActivity" />
+        <activity android:name=".Brownse_by.ShowListsActivity" />
+        <activity android:name=".Brownse_by.BrowseByActivity" />
     </application>
 
 </manifest>
